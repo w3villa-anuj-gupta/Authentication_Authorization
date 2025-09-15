@@ -15,7 +15,7 @@ ACCESS_TOKEN_EXP = 60 *5    # 1 minutes
 REFRESH_TOKEN_EXP = 60 * 60 * 24   # 1 day
 
 # In-memory store for valid refresh tokens (token_jti -> {sub, expires})
-# Production: persist in DB with proper TTL and revocation list
+
 refresh_store = {}
 
 # Demo users (username -> dict)
